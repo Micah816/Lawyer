@@ -1,0 +1,15 @@
+$services-text:$gray-900;
+
+.service-section{
+    padding: 77px 0 80px;
+    h2{
+        margin-bottom: 4.5rem;
+    }
+    .services-item{
+        margin-bottom: 2.7rem;
+        span{
+            color:$services-text;
+        }
+    }
+}
+

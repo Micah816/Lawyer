@@ -29,7 +29,7 @@ html {
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
-  --light: #f8f9fa;
+  --light: #F6F5F6;
   --dark: #343a40;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -1554,23 +1554,23 @@ pre code {
 .table-light,
 .table-light > th,
 .table-light > td {
-  background-color: #fdfdfe;
+  background-color: #fcfcfc;
 }
 
 .table-light th,
 .table-light td,
 .table-light thead th,
 .table-light tbody + tbody {
-  border-color: #fbfcfc;
+  border-color: #fafafa;
 }
 
 .table-hover .table-light:hover {
-  background-color: #ececf6;
+  background-color: #efefef;
 }
 
 .table-hover .table-light:hover > td,
 .table-hover .table-light:hover > th {
-  background-color: #ececf6;
+  background-color: #efefef;
 }
 
 .table-dark,
@@ -2433,36 +2433,36 @@ fieldset:disabled a.btn {
 
 .btn-light {
   color: #1E1E1E;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  background-color: #F6F5F6;
+  border-color: #F6F5F6;
 }
 
 .btn-light:hover {
   color: #1E1E1E;
-  background-color: #e2e6ea;
-  border-color: #dae0e5;
+  background-color: #e4e1e4;
+  border-color: #dedade;
 }
 
 .btn-light:focus, .btn-light.focus {
-  box-shadow: 0 0 0 0.2rem rgba(215, 216, 217, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(214, 213, 214, 0.5);
 }
 
 .btn-light.disabled, .btn-light:disabled {
   color: #1E1E1E;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  background-color: #F6F5F6;
+  border-color: #F6F5F6;
 }
 
 .btn-light:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active,
 .show > .btn-light.dropdown-toggle {
   color: #1E1E1E;
-  background-color: #dae0e5;
-  border-color: #d3d9df;
+  background-color: #dedade;
+  border-color: #d8d3d8;
 }
 
 .btn-light:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus,
 .show > .btn-light.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(215, 216, 217, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(214, 213, 214, 0.5);
 }
 
 .btn-dark {
@@ -2692,35 +2692,35 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light {
-  color: #f8f9fa;
-  border-color: #f8f9fa;
+  color: #F6F5F6;
+  border-color: #F6F5F6;
 }
 
 .btn-outline-light:hover {
   color: #1E1E1E;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  background-color: #F6F5F6;
+  border-color: #F6F5F6;
 }
 
 .btn-outline-light:focus, .btn-outline-light.focus {
-  box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(246, 245, 246, 0.5);
 }
 
 .btn-outline-light.disabled, .btn-outline-light:disabled {
-  color: #f8f9fa;
+  color: #F6F5F6;
   background-color: transparent;
 }
 
 .btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active,
 .show > .btn-outline-light.dropdown-toggle {
   color: #1E1E1E;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  background-color: #F6F5F6;
+  border-color: #F6F5F6;
 }
 
 .btn-outline-light:not(:disabled):not(.disabled):active:focus, .btn-outline-light:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-light.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(246, 245, 246, 0.5);
 }
 
 .btn-outline-dark {
@@ -4768,17 +4768,17 @@ a.badge-danger:focus, a.badge-danger.focus {
 
 .badge-light {
   color: #1E1E1E;
-  background-color: #f8f9fa;
+  background-color: #F6F5F6;
 }
 
 a.badge-light:hover, a.badge-light:focus {
   color: #1E1E1E;
-  background-color: #dae0e5;
+  background-color: #dedade;
 }
 
 a.badge-light:focus, a.badge-light.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(246, 245, 246, 0.5);
 }
 
 .badge-dark {
@@ -4928,17 +4928,17 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .alert-light {
-  color: #818182;
-  background-color: #fefefe;
-  border-color: #fdfdfe;
+  color: #807f80;
+  background-color: #fdfdfd;
+  border-color: #fcfcfc;
 }
 
 .alert-light hr {
-  border-top-color: #ececf6;
+  border-top-color: #efefef;
 }
 
 .alert-light .alert-link {
-  color: #686868;
+  color: #666666;
 }
 
 .alert-dark {
@@ -5294,19 +5294,19 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .list-group-item-light {
-  color: #818182;
-  background-color: #fdfdfe;
+  color: #807f80;
+  background-color: #fcfcfc;
 }
 
 .list-group-item-light.list-group-item-action:hover, .list-group-item-light.list-group-item-action:focus {
-  color: #818182;
-  background-color: #ececf6;
+  color: #807f80;
+  background-color: #efefef;
 }
 
 .list-group-item-light.list-group-item-action.active {
   color: #fff;
-  background-color: #818182;
-  border-color: #818182;
+  background-color: #807f80;
+  border-color: #807f80;
 }
 
 .list-group-item-dark {
@@ -6198,13 +6198,13 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #F6F5F6 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
-  background-color: #dae0e5 !important;
+  background-color: #dedade !important;
 }
 
 .bg-dark {
@@ -6290,7 +6290,7 @@ button.bg-dark:focus {
 }
 
 .border-light {
-  border-color: #f8f9fa !important;
+  border-color: #F6F5F6 !important;
 }
 
 .border-dark {
@@ -9359,11 +9359,11 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .text-light {
-  color: #f8f9fa !important;
+  color: #F6F5F6 !important;
 }
 
 a.text-light:hover, a.text-light:focus {
-  color: #cbd3da !important;
+  color: #d2cdd2 !important;
 }
 
 .text-dark {
@@ -9680,6 +9680,40 @@ header .navbar-nav a {
 
 .service-section .services-item span {
   color: #1E1E1E;
+}
+
+.team-section {
+  padding: 67px 0 61px;
+}
+
+.team-section .team-more {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.team-section .team-membre-name {
+  margin-bottom: 1.5rem;
+}
+
+.team-section .team-membre-name a {
+  line-height: 2.7rem;
+  font-size: 2.2rem;
+}
+
+.team-section .team-member-info {
+  margin-bottom: 3rem;
+}
+
+.team-section .fa-linked-in {
+  color: #1E1E1E;
+  font-size: 3rem;
+}
+
+@media (min-width: 576px) {
+  .team-member .team-member-info {
+    margin-bottom: 14rem;
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */

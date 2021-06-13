@@ -9732,4 +9732,30 @@ header .navbar-nav a {
   font-size: 2rem;
 }
 
+footer {
+  padding: 15px 0 25px;
+}
+
+footer .social a {
+  color: #321E3F;
+  font-size: 2.5rem;
+  transition: 1s linear;
+  margin: 0 5px;
+}
+
+footer .social a:hover {
+  transform: rotate(360deg);
+}
+
+footer .copyright {
+  color: #586C88;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 4.1rem;
+}
+
+footer .copyright a {
+  color: #586C88;
+}
+
 /*# sourceMappingURL=theme.css.map */

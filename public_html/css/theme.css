@@ -9705,7 +9705,7 @@ header .navbar-nav a {
   margin-bottom: 3rem;
 }
 
-.team-section .fa-linked-in {
+.team-section .fa-linkedin-in {
   color: #1E1E1E;
   font-size: 3rem;
 }
@@ -9756,6 +9756,16 @@ footer .copyright {
 
 footer .copyright a {
   color: #586C88;
+}
+
+.about-content {
+  padding: 50px  0;
+}
+
+@media (min-width: 992px) {
+  .about-content {
+    padding: 104px 0;
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */

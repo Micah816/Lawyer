@@ -9682,6 +9682,40 @@ header .navbar-nav a {
   color: #1E1E1E;
 }
 
+.service-section.dark-services-section {
+  background-color: #11284B;
+}
+
+.service-section.dark-services-section h2 {
+  color: #1A77CD;
+}
+
+.service-section.dark-services-section .read-more {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+
+.service-section.dark-services-section .services-item-description {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  height: 7.5rem;
+  overflow: hidden;
+}
+
+.services-content {
+  padding: 50px 0;
+}
+
+.services-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+@media (min-width: 992px) {
+  padding: 107px 0;
+}
+
 .team-section {
   padding: 67px 0 61px;
 }

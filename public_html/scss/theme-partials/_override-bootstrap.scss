@@ -17,19 +17,37 @@ $navbar-light-active-color:         $primary;
 $sizes: ();
 // stylelint-disable-next-line scss/dollar-variable-default
 $sizes: map-merge(
-  (
-    20: 20%,
-    25: 25%,
-    50: 50%,
-    75: 75%,
-    80: 80%,
-    100: 100%,
-    auto: auto
-  ),
-  $sizes
+(
+20: 20%,
+25: 25%,
+50: 50%,
+75: 75%,
+80: 80%,
+100: 100%,
+auto: auto
+),
+$sizes
 );
 
 $light:#F6F5F6;
 
 //info section
 $dark-blue:#11284B;
+
+$grid-breakpoints: (
+xs: 0,
+xm:460px,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px
+);
+
+
+$container-max-widths: (
+xm: 100%,
+sm: 540px,
+md: 720px,
+lg: 960px,
+xl: 1140px
+);

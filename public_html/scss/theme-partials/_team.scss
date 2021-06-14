@@ -28,3 +28,61 @@
     }
     }
 }
+
+//owr team
+.team-members{
+    padding: 50px 0;
+}
+@media(min-width:992px){
+    .team-members{
+        padding: 54px 0 133px;
+    }
+}
+//our team
+.team-members{
+    padding: 50px 0;
+    .team-member{
+        figure{
+            overflow: hidden;
+            img{
+                transition: 1s linear;
+                &:hover{
+                    transform: scale(1.05);
+                }
+            }
+        }
+        .fa-linkedin-in{
+            position: absolute;
+            right: 15px;
+            bottom: 16px;
+            color:$white;
+            font-size: 2.8rem;
+            z-index: 5;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+        h5{
+            a{
+                font-size: 2.2rem;
+                line-height: 2.7rem;
+                color:$body-color;
+                &:hover{
+                text-decoration: none;
+            }
+            }
+        }
+        .team-member-position{
+            color:$primary;
+            font-size: 1.8rem;
+            line-height: 2.7rem;
+            font-weight: $font-weight-medium;
+            
+        }
+    }
+}
+@media(min-width:992){
+    .team-members{
+        padding: 64px 0 133px;
+    }
+}

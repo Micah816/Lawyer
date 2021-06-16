@@ -1,0 +1,26 @@
+.news-page-section{
+    
+    .lead-section-title {
+    font-size: 3.6rem !important;
+    line-height: 4.6rem !important;
+}
+} 
+    .news-single-content{
+       padding: 67px 0;
+       img{
+           width: 100%;
+       }
+       p{
+           margin-bottom: 3rem;
+       }
+       .news-tags{
+           a{
+               text-transform: lowercase;
+           }
+           .tag-title{
+               font-weight: $font-weight-medium;
+           }
+       }
+    }
+
+

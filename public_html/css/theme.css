@@ -1903,7 +1903,7 @@ pre code {
 }
 
 .form-control::placeholder {
-  color: #6c757d;
+  color: rgba(88, 108, 136, 0.8);
   opacity: 1;
 }
 
@@ -10687,6 +10687,39 @@ footer .copyright a {
 
 .news-single-content .news-tags .tag-title {
   font-weight: 500;
+}
+
+.contact-lead-section p, .contact-lead-section a {
+  color: #586C88;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+
+.contact-lead-section p span, .contact-lead-section a span {
+  margin-right: 12px;
+  font-size: 2rem;
+}
+
+.contact-section h2 {
+  line-height: 4.6rem !important;
+}
+
+.contact-section .form-control {
+  background-color: rgba(37, 61, 97, 0.02);
+  border: none;
+  height: 50px !important;
+  line-height: 50px;
+  padding: 0 10px;
+}
+
+.contact-section textarea.form-control {
+  height: 350px !important;
+  resize: none;
+}
+
+.contact-section .error-msg * {
+  color: #dc3545;
+  font-size: 1.3rem;
 }
 
 /*# sourceMappingURL=theme.css.map */

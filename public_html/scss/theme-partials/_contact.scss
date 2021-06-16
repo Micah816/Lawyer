@@ -1,0 +1,42 @@
+ 
+
+.contact-lead-section{
+    p, a{
+        color:$info-text;
+        font-weight: $font-weight-normal;
+        line-height: 2.5rem;
+
+        span{
+            margin-right: 12px;
+            font-size: 2rem;
+        }
+    }
+}
+
+.contact-section{
+    
+    h2{
+        line-height: 4.6rem !important;
+    }
+    .form-control{
+        background-color: rgba(#253d61, 0.02);
+        border:none;
+        height: 50px !important;
+        line-height: 50px;
+        padding: 0 10px;
+
+    }
+   textarea.form-control{
+        height:350px !important;
+        resize: none;
+    } 
+    .error-msg *{
+        color:$danger;
+        font-size: 1.3rem;
+    }
+}
+@media(min-width:992px){
+    .contact-section{
+       
+    }
+}
